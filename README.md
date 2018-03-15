@@ -6,11 +6,9 @@ Del Hatch
 
 ** DES decryption software
 
-The purpose of this project is to create an easy-to-run executable that will perform DES decryption on a binary file.
+The purpose of this project is to create an easy-to-run executable that will perform DES decryption on a binary file. The output is written to a user-specified binary file.
 
-The output is written to a user-specified binary file.
-
-A pre-compiled executable for Windows machines is provided.
+A pre-compiled executable for Windows machines is also provided.
 
 ** Inputs
 
@@ -22,15 +20,15 @@ The command-line executable requires three parameters, in this order:
 
 3) The name of an output file. The cleartext results will be written to this file, as binary data. NOTE: This program will over-write (delete) any pre-existing file with the same name.
 
-EXAMPLE:
+   EXAMPLE:
 
 >des_decrypt.exe key.hex test.hex output.hex
 
 ** Miscellaneous
 
-The provided test.hex file, when decrypted with the included key.hex file, will result in clear text of all zeros.
+The provided test.hex file, when decrypted with the included key.hex file, will (properly) result in clear text of all zeros.
 
-This is the first decryption test vector in the included des_test_vectors.txt file. Other test vectors are included in that file.
+Note that the included des_test_vectors.txt file contains DES test vectors. The files test.hex/key.hex are the first decryption test vector.
 
 
 
