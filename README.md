@@ -28,7 +28,7 @@ The command-line executable requires three parameters, in this order:
 
 The provided test.hex file, when decrypted with the included key.hex file, will (properly) result in clear text of all zeros.
 
-Note that the included des_test_vectors.txt file contains DES test vectors. The files test.hex/key.hex are the first decryption test vector.
+Note that the included des_test_vectors.txt file contains DES test vectors. The files I provide (test.hex/key.hex) are the first decryption test vector.
 
 
 
